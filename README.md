@@ -15,21 +15,21 @@ The system includes:
 
 ## **Installation & Setup**
 
-### **1️.Clone the Repository**
+### **1.Clone the Repository**
 
 ```sh
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/NalindaGamaarachchi/course-student-management.git
+cd course-student-management
 ```
 
-### **2️.Install Dependencies**
+### **2.Install Dependencies**
 
 ```sh
 composer install
 npm install
 ```
 
-### **3️.Set Up Environment**
+### **3.Set Up Environment**
 
 - Copy `.env.example` to `.env`
 
@@ -54,7 +54,7 @@ DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
 ```
 
-### **4️.Run Migrations & Seed Data**
+### **4.Run Migrations & Seed Data**
 
 ```sh
 php artisan migrate --seed
